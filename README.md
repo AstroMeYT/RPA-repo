@@ -12,5 +12,7 @@ Steps to creating a package:
 There are some functions not available with a single block, so here are some work-arounds:
 ### Writing to the screen
 Use the script below to write to the screen:
-```set [input] to (join (echo ) (<string>))
-broadcast [decode input]```
+```
+set [input] to (join (echo ) (<string>))
+broadcast [decode input]
+```
