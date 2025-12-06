@@ -14,12 +14,12 @@ There are some functions not available with a single block, so here are some wor
 Use the script below to write to the screen:
 ```
 set [input] to (join (echo ) (<string>))
-broadcast [decode input]
+broadcast [decode input for package]
 ```
 
 ### Clearing the screen
 Use the script below to clear the screen:
 ```
 set [input] to (clear)
-broadcast [decode input]
+broadcast [decode input for package]
 ```
