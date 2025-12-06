@@ -16,3 +16,11 @@ Use the script below to write to the screen:
 set [input] to (join (echo ) (<string>))
 broadcast [decode input]
 ```
+
+### Clearing the screen
+Use the script below to clear the screen:
+```
+delete all of [terminal]
+set [input] to (clear)
+broadcast [decode input]
+```
